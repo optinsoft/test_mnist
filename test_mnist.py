@@ -64,8 +64,8 @@ def predict_digit(image_file_name: str, images_dir: str, prediction_dir: str):
     print(f"saving prediction => {prediction_file_path}")
     cv2.imwrite(prediction_file_path, orig_image)
 
-images_dir = r'./img/digits/'
-prediction_dir = r'./img/digits/prediction/'
+images_dir = r'./img/'
+prediction_dir = r'./img/prediction/'
 
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
